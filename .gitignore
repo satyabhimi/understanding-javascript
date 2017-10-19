@@ -1,0 +1,28 @@
+### Intellij ###
+.idea
+/out/
+.idea_modules/
+*.iml
+*.ipr
+
+### Maven ####
+/*/target
+target/
+
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+# Eclipse Files
+.project
+.classpath
+.settings/
+.dir
+.gitkeep
+*.js.dir
+
+#Clientlibs module
+node_modules/
+
+#Compiled files
+bundle.js
