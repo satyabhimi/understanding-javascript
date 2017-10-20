@@ -32,7 +32,7 @@ a=b=c;
 var sunIntString = undefined + true;
 // This will output number
 
-//Examples
+//Comparison
 var b = 3 < 2 < 1;
 // 3<2 is false
 // now we send < function false<1
@@ -41,8 +41,21 @@ var b = 3 < 2 < 1;
 var b = 1 < 2 < 3;
 //Number(true) is 1 and 1<3 is true
 
+//Equality comparisons and sameness
 // coercing a undefined will give you NaN
 // coercing a null will give you 0
 // 3 == 3 is true and "3" == 3 is also true as js coerced String 3 to number 3
 // === is Strict equality compares two values
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
+
+//Dynamic types useful?
+var a;
+
+if (a)
+{
+ // This is not executed as a is undefined
+ // this can be used for null
+ // Boolean(0) evaluates to false
+}
+
 
