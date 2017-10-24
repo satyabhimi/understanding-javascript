@@ -20,5 +20,3 @@ person.address.street.street2 = "Dummy street2";
 // person.address.state
 // person["address"]["state"]
 // both of the above statements are same
-
-console.log("webpack");
